@@ -66,12 +66,12 @@ main {
 }
 
 @font-face {
-  font-family: "CustomFont";
-  src: url("fonts/bigblue.ttf") format("truetype");
+  font-family: 'CustomFont';
+  src: url('./fonts/bigblue.ttf') format('truetype');
 }
 
 .news-item {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'CustomFont', Courier, monospace;
   background-color: #1c1c1c;
   padding: 15px;
   border-radius: 8px;
